@@ -1,0 +1,13 @@
+# Sample artwork workflow
+
+Documentation samples are generated on request. README commands are usage examples, not visual evidence, until accepted files exist in `assets/examples`. Packaging and documentation checks never call an image model.
+
+When generating the eight family sample slots (`sample-05`–`sample-12`):
+
+1. **Default sources are Unsplash.** Fetch eight distinct photographs with `python3 xxd-panel-all/scripts/unsplash_sample_sources.py --root <family-root> --panel NNN` (from a Soldier checkout: `python3 ../xxd-panel-all/scripts/unsplash_sample_sources.py --root .. --panel NNN`). The script rotates by Panel number so two Soldiers do not share the same eight photos. Match the *photo half*, not the full canvas: slots 05–08 are 16:9 left–right, so the photograph sits in a tall ~8:9 half and must be a native portrait; slots 09–12 are 3:4 top–bottom, so the photograph sits in a wide ~3:2 half and must be a native landscape. Use a user-supplied sample set only when the current request explicitly names one. Never reuse the shared 陈翔海报 queue, `tmp/imagegen/170`, another Panel's sample sources, or another Panel's generated artwork.
+2. Generate one complete canvas per source. Slots 05–08 are 16:9 left–right at 1536×864 using the portrait sources; slots 09–12 are 3:4 top–bottom at 1152×1536 using the landscape sources. Follow SKILL.md. Comparison canvases have exactly two equal regions; source-required grids, boxes, sidebars or frames belong inside the designed region.
+3. Visually inspect each result for identity, medium, palette, typography, composition and the correct midpoint. Dimension checks alone cannot establish visual acceptance. Clean supported provenance metadata without altering pixels; do not claim this makes the work non-AI.
+4. Only after visual acceptance, store the real output in `assets/examples`. Record its relative path, SHA-256, width, height, mode, canonical source SHA-256 and `visual_review: passed` in `samples.json`. Use `status: ready` only when every listed image passes. Keep failed results out of the gallery.
+5. Run `python3 scripts/check_samples.py`. Then update the sample section in all five READMEs to link to the actual files, remove any no-samples statement, and describe the true mode. Keep the advertising templates unchanged. Run the repository README advertising validator before publication.
+
+Do not add nonexistent sample links, confuse a source photo with a generated example, or present another numbered Panel's artwork as this Panel's work. Samples are documentation evidence and never replace the canonical prompt during runtime generation.
