@@ -1,158 +1,270 @@
 <div align="center">
 
-# XXD Panel 344｜微缩地台
+# XXD Panel 344｜ミニチュアの台座
 
-上は原写真。下では主体を足元の小さな地面ごと切り出し、角の丸い四角い台座に立つ斜め俯瞰のミニチュア模型にする。丸くずんぐりした粘土のような塊、マットでやわらかな光、パステルの同系色、まわりは清潔な淡色の余白。
+**写真の主役を足もとの地面ごと切り出し、角の丸い台座に立つミニチュア模型にします。**
 
-<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
+<a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <strong>日本語</strong> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
-> 原始プロンプト（5言語の入口）：[简中](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)。
-
-## 16:9 左右の作例
-
-上下の組とは別の20テーマの Unsplash 縦写真。それぞれ 16:9 の左右完成キャンバス。左は現実写真、右は清潔な淡色の余白に置かれた角丸台座のミニチュア模型一つ。厳密に 50:50。模型の立体の小さな文字は写真の内容から生成し、中国語・英語・日本語・韓国語・アラビア語を順に回す。縦写真のテーマは輪郭のはっきりした単一の塔、動物、食べ物、日用品を選び、より細い半面でも台座が完結し、中央に収まり、切れない様子を見せる。
-
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-21.png" alt="XXD Panel 344 sample 21 · 自動販売機"><br><sub>21 · 自動販売機</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-22.png" alt="XXD Panel 344 sample 22 · 灯台"><br><sub>22 · 灯台</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-23.png" alt="XXD Panel 344 sample 23 · 給水塔"><br><sub>23 · 給水塔</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-24.png" alt="XXD Panel 344 sample 24 · 信号機"><br><sub>24 · 信号機</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-25.png" alt="XXD Panel 344 sample 25 · 時計塔"><br><sub>25 · 時計塔</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-26.png" alt="XXD Panel 344 sample 26 · パンダ"><br><sub>26 · パンダ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-27.png" alt="XXD Panel 344 sample 27 · リス"><br><sub>27 · リス</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-28.png" alt="XXD Panel 344 sample 28 · ラテ"><br><sub>28 · ラテ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-29.png" alt="XXD Panel 344 sample 29 · 多肉植物の鉢"><br><sub>29 · 多肉植物の鉢</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-30.png" alt="XXD Panel 344 sample 30 · 路上のサックス奏者"><br><sub>30 · 路上のサックス奏者</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-31.png" alt="XXD Panel 344 sample 31 · 壁際の自転車"><br><sub>31 · 壁際の自転車</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-32.png" alt="XXD Panel 344 sample 32 · カラフルな小さな家"><br><sub>32 · カラフルな小さな家</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-33.png" alt="XXD Panel 344 sample 33 · 雪だるま"><br><sub>33 · 雪だるま</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-34.png" alt="XXD Panel 344 sample 34 · カボチャ"><br><sub>34 · カボチャ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-35.png" alt="XXD Panel 344 sample 35 · 雄ジカ"><br><sub>35 · 雄ジカ</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-36.png" alt="XXD Panel 344 sample 36 · ラズベリーケーキ"><br><sub>36 · ラズベリーケーキ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-37.png" alt="XXD Panel 344 sample 37 · 桜の枝"><br><sub>37 · 桜の枝</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-38.png" alt="XXD Panel 344 sample 38 · メリーゴーラウンド"><br><sub>38 · メリーゴーラウンド</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-39.png" alt="XXD Panel 344 sample 39 · ウマ"><br><sub>39 · ウマ</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-40.png" alt="XXD Panel 344 sample 40 · ヒツジ"><br><sub>40 · ヒツジ</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 344 · 01 · 田舎の礼拝堂"><br><sub>01 · 田舎の礼拝堂</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 344 · 02 · ワーゲンバス"><br><sub>02 · ワーゲンバス</sub></td>
   </tr>
 </table>
 
-## 3:4 上下の作例
+<p align="center"><sub>上が元の写真、下がこのスタイルで描き直したものです。</sub></p>
 
-主体の明快な Unsplash の横長写真20点を、それぞれ 3:4 上下の完成キャンバスにした。上は現実写真、下は角の丸い台座に立つアイソメトリックのミニチュア模型一つ。厳密に 50:50。原文は言語を限定しないため、模型に付く立体の小さな文字は写真から生成し、中国語・英語・日本語・韓国語・アラビア語を順に回す。小さな建物、古い乗り物、動物、店先、自然の一角まで、異なる写真が台座ごと切り出され、遠景を削られ、同じ展示台の置物の気配にまとまる様子を示す。
+## これは何か
 
-<table>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 344 sample 01 · 田舎の礼拝堂"><br><sub>01 · 田舎の礼拝堂</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 344 sample 02 · ワーゲンバス"><br><sub>02 · ワーゲンバス</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-03.png" alt="XXD Panel 344 sample 03 · 赤いトラクター"><br><sub>03 · 赤いトラクター</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-04.png" alt="XXD Panel 344 sample 04 · 風車"><br><sub>04 · 風車</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 344 sample 05 · ツリーハウス"><br><sub>05 · ツリーハウス</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 344 sample 06 · アルパカ"><br><sub>06 · アルパカ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 344 sample 07 · 小舟"><br><sub>07 · 小舟</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 344 sample 08 · 水上コテージ"><br><sub>08 · 水上コテージ</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 344 sample 09 · 花屋の店先"><br><sub>09 · 花屋の店先</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 344 sample 10 · 蒸気機関車"><br><sub>10 · 蒸気機関車</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 344 sample 11 · ラクダ"><br><sub>11 · ラクダ</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 344 sample 12 · スケートボード"><br><sub>12 · スケートボード</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-13.png" alt="XXD Panel 344 sample 13 · ハリネズミ"><br><sub>13 · ハリネズミ</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-14.png" alt="XXD Panel 344 sample 14 · 水車小屋"><br><sub>14 · 水車小屋</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-15.png" alt="XXD Panel 344 sample 15 · 消火栓"><br><sub>15 · 消火栓</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-16.png" alt="XXD Panel 344 sample 16 · キャンプのテント"><br><sub>16 · キャンプのテント</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-17.png" alt="XXD Panel 344 sample 17 · クラシックカー"><br><sub>17 · クラシックカー</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-18.png" alt="XXD Panel 344 sample 18 · ガラスの温室"><br><sub>18 · ガラスの温室</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-19.png" alt="XXD Panel 344 sample 19 · 小島"><br><sub>19 · 小島</sub></td>
-    <td width="50%"><img src="./assets/examples/sample-20.png" alt="XXD Panel 344 sample 20 · ゾウ"><br><sub>20 · ゾウ</sub></td>
-  </tr>
-</table>
+Claude Code や Codex などの AI エージェント向け Skill です。写真を 1 枚渡すと、Panel 344 の原文プロンプトに沿って PNG の完成作品を描きます。
 
-## 向いている場面と解決する課題
+- **どんな絵になるか：** 主役と足もとの小さな地面を切り出し、角の丸い四角い台座に立つミニチュア模型にします。斜め上から見下ろし、台座の縁はすべて見えます。どの塊もずんぐりと丸く角が落とされ、ソフト粘土の小さなフィギュアのようで、木の葉は小さな球の集まり、周りのごちゃごちゃは整然と置かれたいくつかの小物にまとめられます。表面はマットで、柔らかな拡散光と接地部の淡い影だけがあり、色は写真から取ったパステル調の同系色、台座はグレーがかった白です。模型は中央に置かれ、周りは地平線のない清潔な淡い単色の空間です。正面には模型と同じ素材の丸い立体文字が一語だけ付き、写真側には文字を入れません。
+- **キーワード：** アイソメトリックのミニチュア · 角丸の四角い台座 · 斜め上からの俯瞰 · 丸い粘土の塊 · パステルの同系色 · 模型に付いた立体文字
+- **作れるもの：** 上下比較（上に写真、下にデザイン）、左右比較、デザインのみ、またはスマホ／タブレット／PC／ウォッチの壁紙セット。複数選択でき、比率やピクセル数も自由です。
+- **これは違う：** フィルターでもテンプレートでもありません。毎回あなたの写真から描き直し、写真 1 枚ごとに独立したタスクです。
 
-主体を単独で取り出せる写真に向く：小さな家、乗り物、動物、店先、一本の木や一つの塔。構図が弱い、背景が雑然、主体が小さい写真も救える——下半分で斜め上からの視点に移し、台座を切り出し、中央に置き、遠くのものをすべて消して、静かで完結したミニチュアの置物にする。写真が通り全体や風景全体なら、最も代表的な単体一つだけを模型にする。
+## 3 ステップで始める
 
-要は、縁が全部見える角丸の四角い台座、斜め俯瞰、丸くずんぐりした塊、マットな軟らかい粘土の質感、写真から取ったパステルの同系色、模型の正面に同じ素材で付く立体の小さな文字一つ。場面の完全再現、背景を埋める・現実の環境に戻す、水平視の正面図、台座が切れる、模型が境界に迫る、フラットなベクター、プラスチックの光沢、彩度の高い飴色は避ける。
-
-## 使い方のコツ
-
-- **まず一枚の見やすい写真から始める：** 主体・動作・関係が分かる画像を選んでから、出力形式と比率を決めます。
-- **パラメータを一文でつなぐ：** 「上下 / 左右 / デザインのみ + 16:9 / 3:4 / スマホ壁紙」のように指定し、PC・タブレット・スマートウォッチのサイズも追加できます。
-- **残したい内容を明示する：** 人物、物、動作、関係、文字を指定し、レイアウトを細かく縛りすぎずスタイルに任せます。
-- **文字の方法を選ぶ：** 画像から自動生成、`--text exact --copy` で逐字固定、または `--text none` で文字なしにできます。
-- **写真領域とデザイン領域を伝える：** 上下・左右では写真を残す側と再設計する側を指定し、デザインのみ・壁紙では全画面を再設計すると伝えます。
-- **一枚で試してから一括処理する：** モード、比率、文字、言語を一枚で確認し、同じ設定をフォルダに適用します。比較しやすいよう一度に一つだけ変更します。
-
-## はじめに
-
-GitHub からインストール：
+**1. インストール。** Claude Code、Codex など Skills 対応のエージェントで使えます：
 
 ```bash
 npx skills add https://github.com/nevertoday/xxd-panel-344 --skill xxd-panel-344
 ```
 
-インストール後に Agent セッションを再起動し、`$xxd-panel-344` を呼び出します。ユーザー単位の Codex には `--global --agent codex --yes` を追加できます。
+インストール後、エージェントのセッションを開き直してください。このリポジトリを `git clone` して `~/.claude/skills/xxd-panel-344` または `~/.codex/skills/xxd-panel-344` にリンクしても使えます。
+
+**2. エージェントが画像を生成できるか確認。** この Skill 自体は画像モデルを持たず、エージェントの画像生成（GPT Image 2 推奨）を使います。
+
+- Codex は内蔵の画像生成が有効ならそのまま使えます。
+- Claude Code など内蔵の画像生成がないエージェントは、OpenAI 互換の画像 API が必要です。5 分ほどで設定できます：[画像生成の設定](#画像生成の設定)。
+
+わからなければそのまま試してください。生成できない場合は、作業を始める前に Skill が止まって知らせます。
+
+**3. 写真を送って、ひとこと：**
+
+> xxd-panel-344 でこの写真を 3:4 の上下比較ポスターにして、日本語のタイトルを付けて。
+
+指示がそろっていればすぐ生成し、足りない点（レイアウト、比率、文字）は 1〜2 問ほど質問します。完成した PNG は `~/Desktop/xxd/xxd-panel-344/` の新しいフォルダに保存されます。
+
+## 向いている写真
+
+**向いている**
+
+- 単体で切り出せる主役：小さな家、車、塔、一本の木
+- 暮らしの気配がある小さな店や一角：カフェの店先、新聞スタンド、ベランダの隅
+- 構図が平凡、背景が散らかっている、主役が小さい写真（台座に切り出し、遠景を省きます）
+
+**あまり向いていない**
+
+- 通り全体、風景全体、室内全体を残したい場合（一つの単体だけを模型にします）
+- 人物の顔立ちや本物の素材感を見せたい写真（すべて丸いフィギュアに統一されます）
+- 正面からの立面、フラットなベクター、つやのあるプラスチック、彩度の高いキャンディカラーを求める場合
+
+## サンプル
+
+下の画像はすべて、この Skill が写真 1 枚から作った完成作品です。上下比較と左右比較では別の写真を使っています。
+
+### 上下比較：上が写真、下がデザイン
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-01.png" alt="XXD Panel 344 · 01 · 田舎の礼拝堂"><br><sub>01 · 田舎の礼拝堂</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-02.png" alt="XXD Panel 344 · 02 · ワーゲンバス"><br><sub>02 · ワーゲンバス</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-03.png" alt="XXD Panel 344 · 03 · 赤いトラクター"><br><sub>03 · 赤いトラクター</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-04.png" alt="XXD Panel 344 · 04 · 風車"><br><sub>04 · 風車</sub></td>
+  </tr>
+</table>
+
+<details>
+<summary>さらに 16 枚を見る</summary>
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 344 · 05 · ツリーハウス"><br><sub>05 · ツリーハウス</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 344 · 06 · アルパカ"><br><sub>06 · アルパカ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 344 · 07 · 小舟"><br><sub>07 · 小舟</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 344 · 08 · 水上コテージ"><br><sub>08 · 水上コテージ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 344 · 09 · 花屋の店先"><br><sub>09 · 花屋の店先</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 344 · 10 · 蒸気機関車"><br><sub>10 · 蒸気機関車</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 344 · 11 · ラクダ"><br><sub>11 · ラクダ</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 344 · 12 · スケートボード"><br><sub>12 · スケートボード</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-13.png" alt="XXD Panel 344 · 13 · ハリネズミ"><br><sub>13 · ハリネズミ</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-14.png" alt="XXD Panel 344 · 14 · 水車小屋"><br><sub>14 · 水車小屋</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-15.png" alt="XXD Panel 344 · 15 · 消火栓"><br><sub>15 · 消火栓</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-16.png" alt="XXD Panel 344 · 16 · キャンプのテント"><br><sub>16 · キャンプのテント</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-17.png" alt="XXD Panel 344 · 17 · クラシックカー"><br><sub>17 · クラシックカー</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-18.png" alt="XXD Panel 344 · 18 · ガラスの温室"><br><sub>18 · ガラスの温室</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-19.png" alt="XXD Panel 344 · 19 · 小島"><br><sub>19 · 小島</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-20.png" alt="XXD Panel 344 · 20 · ゾウ"><br><sub>20 · ゾウ</sub></td>
+  </tr>
+</table>
+
+</details>
+
+### 左右比較：左が写真、右がデザイン
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-21.png" alt="XXD Panel 344 · 21 · 自動販売機"><br><sub>21 · 自動販売機</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-22.png" alt="XXD Panel 344 · 22 · 灯台"><br><sub>22 · 灯台</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-23.png" alt="XXD Panel 344 · 23 · 給水塔"><br><sub>23 · 給水塔</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-24.png" alt="XXD Panel 344 · 24 · 信号機"><br><sub>24 · 信号機</sub></td>
+  </tr>
+</table>
+
+<details>
+<summary>さらに 16 枚を見る</summary>
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-25.png" alt="XXD Panel 344 · 25 · 時計塔"><br><sub>25 · 時計塔</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-26.png" alt="XXD Panel 344 · 26 · パンダ"><br><sub>26 · パンダ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-27.png" alt="XXD Panel 344 · 27 · リス"><br><sub>27 · リス</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-28.png" alt="XXD Panel 344 · 28 · ラテ"><br><sub>28 · ラテ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-29.png" alt="XXD Panel 344 · 29 · 多肉植物の鉢"><br><sub>29 · 多肉植物の鉢</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-30.png" alt="XXD Panel 344 · 30 · 路上のサックス奏者"><br><sub>30 · 路上のサックス奏者</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-31.png" alt="XXD Panel 344 · 31 · 壁際の自転車"><br><sub>31 · 壁際の自転車</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-32.png" alt="XXD Panel 344 · 32 · カラフルな小さな家"><br><sub>32 · カラフルな小さな家</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-33.png" alt="XXD Panel 344 · 33 · 雪だるま"><br><sub>33 · 雪だるま</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-34.png" alt="XXD Panel 344 · 34 · カボチャ"><br><sub>34 · カボチャ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-35.png" alt="XXD Panel 344 · 35 · 雄ジカ"><br><sub>35 · 雄ジカ</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-36.png" alt="XXD Panel 344 · 36 · ラズベリーケーキ"><br><sub>36 · ラズベリーケーキ</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-37.png" alt="XXD Panel 344 · 37 · 桜の枝"><br><sub>37 · 桜の枝</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-38.png" alt="XXD Panel 344 · 38 · メリーゴーラウンド"><br><sub>38 · メリーゴーラウンド</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-39.png" alt="XXD Panel 344 · 39 · ウマ"><br><sub>39 · ウマ</sub></td>
+    <td width="50%"><img src="./assets/examples/sample-40.png" alt="XXD Panel 344 · 40 · ヒツジ"><br><sub>40 · ヒツジ</sub></td>
+  </tr>
+</table>
+
+</details>
+
+## こう言えば OK
+
+パラメータを覚える必要はありません。そのまま伝えてください：
+
+| やりたいこと | こう言う |
+|---|---|
+| 上下比較 | 3:4 の上下比較にして |
+| 左右比較 | 16:9 の左右比較で、左に写真 |
+| デザインのみ | 写真なしでデザインだけ、9:16 縦長 |
+| 壁紙セット | スマホ、タブレット、PC、ウォッチの壁紙を統一感のあるセットで |
+| 複数の比率 | 同じ写真で 1:1、3:4、16:9 を 1 枚ずつ |
+| 自分の文字 | タイトルは「風の通り道」、一字も変えないで |
+| 文字なし | 文字は一切入れないで |
+| 文字の言語 | 文字は英語で |
+| フォルダごと | このフォルダの写真を全部上下比較にして |
+| 前回と同じ | 前回の設定で |
+
+コマンドラインが好みなら、パラメータは上と一対一で対応します：
 
 ```text
 /xxd-panel-344 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ja-JP
-/xxd-panel-344 photo.jpg --mode left-right --size 16:9 --text prompt --locale en-US
-/xxd-panel-344 photo.jpg --mode design-only --size 9:16 --text none --prefs off
+/xxd-panel-344 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-344 ./photos --mode left-right --size 16:9 --text prompt --locale en-US
 ```
 
-完全な実行契約は [SKILL.md](SKILL.md)、実行アダプターは[英語](references/xxd-panel-344-prompt.en.md)／[中国語](references/xxd-panel-344-prompt.zh-CN.md)を参照してください。
+すべてのパラメータは[パラメータ一覧](#パラメータ一覧)にあります。
+
+## よくある質問
+
+**元の写真は必ず入りますか？** いいえ。「デザインだけ」や壁紙なら、画面全体がデザインになります。
+
+**文字は誰が書くのですか？** 既定では画像モデルが写真を見て書き、あなたは言語だけを選びます。自分の文字を指定すれば一字も変えずに使い、文字なしにもできます。事実に見える情報（地名、日付、数字）は、あなたが渡したものか写真に写っているものだけを使い、作りません。
+
+**気に入らなかったら？** 「もう 1 枚」と言ってください。前の結果を直すのではなく元の写真から描き直すので、毎回違う結果になります。
+
+**まとめて処理すると混ざりませんか？** 混ざりません。写真ごとに個別に生成し、ほかの写真の色、文字、構図を借りません。設定は一括で 1 回だけ聞きます。
+
+**写真はどこに送られますか？** エージェントが使う画像モデルにだけ送られます。Skill はほかへアップロードせず、接続先やキーも表示しません。
+
+**ほかの Panel との関係は？** XXD Panel は番号ごとに 1 つのスタイルで、互いに独立しています。好きなものだけ入れてかまいません。写真に合うスタイルを AI に選ばせたい、複数を比べたいときは、カタログ [xxd-panel-all](https://github.com/nevertoday/xxd-panel-all) を使ってください。
 
 ## 原文プロンプト
 
-[中国語の完全な原文](references/original-prompt/zh-CN.md)を逐字保存し、実行時の創作と美的判断の唯一の基準とします。本バッチは5言語の利用説明を提供しますが、長い原文の4言語訳は追加しません。概要は検索用で、原文の代用ではありません。
+このスタイルは小小東が書いた[原文プロンプト](references/original-prompt/zh-CN.md)（中国語）だけで決まります。Skill はあなたが選んだレイアウト、サイズ、文字の設定を末尾に足すだけで、要約・翻訳・書き換えはしません。
 
-## クイック判定
+参考訳（読むためのもので、画像生成には使いません）：[English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
 
-元写真の同一性を保ちながら構図を再演出し、素材の特徴と意図的な余白を両立。指定文・自動文案・文字なし、単画像・再帰的フォルダー処理、下記の4出力モードに対応します。
+## 画像生成の設定
 
-## 4つの出力モード
+`gpt-image-2`（または互換モデル）を提供する OpenAI 互換 API とその API キーが必要です。次の手順は別の設定ファイルを作るので、Codex 本体の設定には影響しません：
 
-- `top-bottom`：全幅の上下2領域のみ。実写を上、デザインを下に置き、各50%。
-- `left-right`：全高の左右2領域のみ。実写を左、デザインを右に置き、各50%。上下構成へ回転しません。
-- `design-only`：全画面を Panel 344 のデザイン翻訳にし、写真は見えない参照にします。
-- `wallpaper-pack`：スマートフォン、iPad、デスクトップ、時計を端末ごとに生成。`linked` または `independent` を選べます。
+```bash
+mkdir -p ~/.xxd-imagegen
+cat > ~/.xxd-imagegen/config.toml <<'EOF'
+model_provider = "image"
 
-モードと比率は複数指定できます。`1:1`、`3:4`、`4:3`、`4:5`、`5:4`、`2:3`、`3:2`、`9:16`、`16:9`、`21:9`、`5:7`、`7:5`、正確なピクセルに対応します。文字はプロンプト生成、指定文の逐字使用、なしから選べます。フォルダ入力では各画像を分離して処理し、PNGを一つの新しいタスクフォルダへ置きます。
+[model_providers.image]
+base_url = "https://api.openai.com/v1"   # または互換エンドポイント
+env_key = "XXD_IMAGE_API_KEY"
+EOF
+
+# ~/.zshrc か ~/.bashrc に書き、エージェントからも読めるようにする
+echo 'export XXD_IMAGEGEN_CODEX_DIR=~/.xxd-imagegen' >> ~/.zshrc
+echo 'export XXD_IMAGE_API_KEY=あなたのキー' >> ~/.zshrc
+```
+
+ターミナルとエージェントを開き直してから、この Skill のフォルダで一度確認します：
+
+```bash
+python3 scripts/configured_imagegen.py probe
+```
+
+`"ok":true` なら成功です。結果は使えるかどうかだけで、接続先やキーは表示されません。Codex がすでに互換 API で画像を生成できるなら、この手順は不要です。
+
+## パラメータ一覧
+
+| パラメータ | 値 |
+|---|---|
+| `--mode` | `top-bottom` 上下比較 · `left-right` 左右比較 · `design-only` デザインのみ · `wallpaper-pack` 4 端末の壁紙；複数選択可 |
+| `--size` | `auto` おすすめ · `source` 写真に合わせる · `1:1` `3:4` `4:3` `4:5` `5:4` `2:3` `3:2` `9:16` `16:9` `21:9` `5:7` `7:5` · ピクセル指定（例 `2160x3840`）；複数選択可 |
+| `--text` | `prompt` 写真から書く · `exact` あなたの文字（`--copy "…"` と併用） · `none` 文字なし |
+| `--locale` | 文字の言語。例：`zh-CN` `en-US` `ja-JP` `ko-KR` `ar` |
+| `--wallpaper` | `linked` 統一感のあるセット · `independent` 4 枚それぞれ独立 |
+| `--wallpaper-size` | 端末ごとのピクセル。例：`phone=1440x3200,desktop=3840x2160` |
+| `--out` | 出力先のルートを変更（既定は `~/Desktop/xxd/xxd-panel-344/`） |
+| `--prefs` | `last` 前回どおり · `edit` 前回から変更 · `new` 選び直す · `off` 今回は記録しない · `clear` 記録を消す |
+
+- 値がそろっていれば質問せず、足りないものだけを聞きます。`photo.jpg` の代わりにフォルダを渡すと一括処理になります。
+- 組み合わせは 1 枚ずつ生成します。2 モード × 3 サイズ = 6 枚で、どれも切り抜きではなくキャンバスごとに構図を組み直します。
+- 比較画像は正確に 50:50 です。通常はモデルがデザイン側だけを描き、スクリプトが元の写真をそのまま隣に並べるので、境目は中央で写真も変わりません。
+- ファイル名は `source-001-street-top-bottom-3x4-1152x1536.png` のような形式で、すべて 1 つのタスクフォルダに平置きされます。
+- 記録するのはレイアウト、サイズ、文字の方式と言語だけで、写真、文字、キーは残しません。
 
 <!-- xxd-readme-ads:start -->
 ## XXD について

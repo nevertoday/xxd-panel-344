@@ -1,4 +1,4 @@
 interface:
   display_name: "XXD Panel 344"
-  short_description: "微缩地台：上半保留原照，下半把主体切成立在圆角地台上的斜俯视粉调软陶微缩模型"
-  default_prompt: "Use $xxd-panel-344 to transform my photograph following the complete canonical source brief."
+  short_description: "微缩地台：把照片主体切成立在圆角地台上的斜俯视软陶微缩模型，粉调哑光"
+  default_prompt: "Use $xxd-panel-344 to turn my photo into Miniature Plinth artwork."

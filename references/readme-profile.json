@@ -1,0 +1,119 @@
+{
+  "skill_description": "XXD Panel 344｜Miniature Plinth: keeps the photo and cuts its subject out with a small patch of its ground, rebuilding it as an isometric miniature model on a rounded-square plinth seen from above at an angle — chunky, rounded, toy-like blocks with every edge softened, foliage as clusters of tiny balls, a matte soft-clay 3D surface lit by gentle diffuse light, a pastel analogous palette taken from the photo with a grey-white plinth, a few tidy small props, the whole model complete and centred in clean pale space with only a faint shadow, plus one small rounded 3D word attached to the model's front. Scenes are reduced to one representative element. The photo half carries no text. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-344 or asks for an isometric diorama, clay miniature, plinth model or toy-like 3D model from a photo.",
+  "short_description": "微缩地台：把照片主体切成立在圆角地台上的斜俯视软陶微缩模型，粉调哑光",
+  "zh-CN": {
+    "name": "微缩地台",
+    "tagline": "把照片主体连同脚下一小片地面，做成立在圆角地台上的微缩模型。",
+    "look": "主体连同脚下一小片地面被切出来，做成一座立在圆角方形地台上的微缩模型，从斜上方俯视，地台边沿完整露出。所有体块都圆润敦实、边角倒圆，像软陶做的小手办，树叶是一簇簇小圆球，周边杂物收成几件摆放整齐的小配件。表面哑光，只有柔和的漫射光和贴地的淡淡接触阴影，颜色是从照片提出的粉调同类色，地台是灰白中性色。模型居中、四周是干净的浅色单色空背景，没有地平线。正面贴着一个和模型同材质的圆润立体小字，照片那一半不放字。",
+    "traits": [
+      "等距微缩模型",
+      "圆角方形地台",
+      "斜俯视",
+      "圆润软陶体块",
+      "粉调同类色",
+      "模型上的立体小字"
+    ],
+    "good": [
+      "可以单独拎出来的主体：一栋小房子、一辆车、一座塔、一棵树",
+      "带一点生活气息的小店或角落：咖啡店门面、书报亭、阳台一角",
+      "构图差、背景乱或主体很小的照片，会被切出地台、删掉远处"
+    ],
+    "poor": [
+      "想保留整条街、整片风景或完整室内的需求，这里只取一个单体",
+      "需要看清人物长相或真实材质的照片，会被统一成圆润的小手办",
+      "想要平视正立面、扁平矢量插画、光亮塑料反光或高饱和糖果色的需求"
+    ]
+  },
+  "en": {
+    "name": "Miniature Plinth",
+    "tagline": "Cuts out the subject of your photo with a patch of its ground and makes it a miniature model on a rounded plinth.",
+    "look": "The subject and a small patch of ground beneath it are cut out and built as a miniature model on a rounded-square plinth, seen from above at an angle with the plinth's whole edge in view. Every block is chunky and rounded like a soft-clay figurine, foliage is made of clusters of tiny balls, and surrounding clutter becomes a few neatly placed small props. The surface is matte, lit only by gentle diffuse light and a faint contact shadow, in a pastel analogous palette drawn from the photo, with a grey-white plinth. The model sits centred in clean, pale, single-colour space with no horizon. One small rounded 3D word in the same material is attached to its front; the photo half carries no text.",
+    "traits": [
+      "Isometric miniature",
+      "Rounded-square plinth",
+      "High angled view",
+      "Rounded clay blocks",
+      "Pastel analogous palette",
+      "3D word on the model"
+    ],
+    "good": [
+      "Subjects that can be lifted out on their own: a small house, a car, a tower, a tree",
+      "Small shops or corners with a lived-in feel: a café front, a newsstand, a corner of a balcony",
+      "Photos with weak composition, messy backgrounds or a small subject, which get cut onto a plinth with the distance removed"
+    ],
+    "poor": [
+      "Requests to keep a whole street, landscape or full interior, since only one element is modelled",
+      "Photos where a person's likeness or real materials must show, since everything becomes a rounded figurine",
+      "Requests for a straight-on front elevation, flat vector art, shiny plastic or saturated candy colours"
+    ]
+  },
+  "ja": {
+    "name": "ミニチュアの台座",
+    "tagline": "写真の主役を足もとの地面ごと切り出し、角の丸い台座に立つミニチュア模型にします。",
+    "look": "主役と足もとの小さな地面を切り出し、角の丸い四角い台座に立つミニチュア模型にします。斜め上から見下ろし、台座の縁はすべて見えます。どの塊もずんぐりと丸く角が落とされ、ソフト粘土の小さなフィギュアのようで、木の葉は小さな球の集まり、周りのごちゃごちゃは整然と置かれたいくつかの小物にまとめられます。表面はマットで、柔らかな拡散光と接地部の淡い影だけがあり、色は写真から取ったパステル調の同系色、台座はグレーがかった白です。模型は中央に置かれ、周りは地平線のない清潔な淡い単色の空間です。正面には模型と同じ素材の丸い立体文字が一語だけ付き、写真側には文字を入れません。",
+    "traits": [
+      "アイソメトリックのミニチュア",
+      "角丸の四角い台座",
+      "斜め上からの俯瞰",
+      "丸い粘土の塊",
+      "パステルの同系色",
+      "模型に付いた立体文字"
+    ],
+    "good": [
+      "単体で切り出せる主役：小さな家、車、塔、一本の木",
+      "暮らしの気配がある小さな店や一角：カフェの店先、新聞スタンド、ベランダの隅",
+      "構図が平凡、背景が散らかっている、主役が小さい写真（台座に切り出し、遠景を省きます）"
+    ],
+    "poor": [
+      "通り全体、風景全体、室内全体を残したい場合（一つの単体だけを模型にします）",
+      "人物の顔立ちや本物の素材感を見せたい写真（すべて丸いフィギュアに統一されます）",
+      "正面からの立面、フラットなベクター、つやのあるプラスチック、彩度の高いキャンディカラーを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "미니어처 받침대",
+    "tagline": "사진 속 주인공을 발밑 땅 한 조각과 함께 잘라 둥근 받침대 위 미니어처 모형으로 만듭니다.",
+    "look": "주인공과 발밑의 작은 땅 한 조각을 잘라 내 모서리가 둥근 사각 받침대 위에 선 미니어처 모형으로 만듭니다. 비스듬히 위에서 내려다보며 받침대 가장자리가 온전히 보입니다. 모든 덩어리는 통통하고 둥글게 모서리가 깎여 부드러운 점토 피규어 같고, 나뭇잎은 작은 구슬 무더기로, 주변의 어수선한 것들은 가지런히 놓인 작은 소품 몇 개로 정리됩니다. 표면은 무광이며 부드러운 확산광과 바닥에 닿는 옅은 접촉 그림자만 있고, 색은 사진에서 뽑은 파스텔 계열 유사색, 받침대는 회백색입니다. 모형은 가운데 놓이고 주변은 지평선 없는 깨끗하고 옅은 단색 공간입니다. 앞면에는 모형과 같은 재질의 둥근 입체 글자 한 단어가 붙고, 사진 쪽에는 글자를 넣지 않습니다.",
+    "traits": [
+      "아이소메트릭 미니어처",
+      "둥근 사각 받침대",
+      "비스듬한 부감",
+      "둥근 점토 덩어리",
+      "파스텔 유사색",
+      "모형 위 입체 글자"
+    ],
+    "good": [
+      "따로 떼어 낼 수 있는 주인공: 작은 집, 자동차, 탑, 나무 한 그루",
+      "생활감이 있는 작은 가게나 구석: 카페 앞, 신문 가판대, 발코니 한쪽",
+      "구도가 평범하거나 배경이 어수선하거나 주인공이 작은 사진(받침대로 잘라 내고 먼 곳은 지웁니다)"
+    ],
+    "poor": [
+      "거리 전체, 풍경 전체, 실내 전체를 살리고 싶은 경우(단일 요소 하나만 모형으로 만듭니다)",
+      "인물의 생김새나 실제 재질이 보여야 하는 사진(모두 둥근 피규어로 통일됩니다)",
+      "정면 입면, 플랫 벡터, 번들거리는 플라스틱, 채도 높은 캔디 색을 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "قاعدة المجسّم المصغّر",
+    "tagline": "يقتطع العنصر الرئيسي في صورتك مع رقعة من أرضه ويصنع منه مجسّماً مصغّراً على قاعدة مستديرة الزوايا.",
+    "look": "يُقتطع العنصر ورقعة صغيرة من الأرض تحته، ويُبنى مجسّماً مصغّراً قائماً على قاعدة مربعة مستديرة الزوايا، يُرى من أعلى بزاوية مائلة وتظهر حافة القاعدة كاملة. كل الكتل ممتلئة ومستديرة الحواف كتماثيل صغيرة من الصلصال الطري، وأوراق الشجر عناقيد من كرات صغيرة، والفوضى المحيطة تتحول إلى قطع صغيرة قليلة مرتّبة بعناية. السطح مطفأ، لا يضيئه إلا ضوء منتشر ناعم وظلّ تلامس خفيف عند الأرض، بألوان باستيل متجاورة مأخوذة من الصورة، والقاعدة بلون رمادي مائل إلى الأبيض. يقف المجسّم في الوسط ضمن مساحة فاتحة نظيفة بلون واحد بلا أفق. تُثبَّت على واجهته كلمة صغيرة واحدة بحروف مجسّمة مستديرة من الخامة نفسها، ولا يوضع أي نص على نصف الصورة.",
+    "traits": [
+      "مجسّم إيزومتري مصغّر",
+      "قاعدة مربعة مستديرة الزوايا",
+      "منظور علوي مائل",
+      "كتل صلصال مستديرة",
+      "ألوان باستيل متجاورة",
+      "كلمة مجسّمة على النموذج"
+    ],
+    "good": [
+      "عناصر يمكن فصلها وحدها: بيت صغير، سيارة، برج، شجرة",
+      "متاجر صغيرة أو زوايا فيها حياة يومية: واجهة مقهى، كشك صحف، ركن شرفة",
+      "صور ضعيفة التكوين أو بخلفية فوضوية أو بعنصر صغير، تُقتطع على القاعدة ويُحذف البعيد"
+    ],
+    "poor": [
+      "طلب الإبقاء على شارع كامل أو منظر طبيعي كامل أو غرفة كاملة، إذ لا يُجسَّم إلا عنصر واحد",
+      "صور يجب أن تظهر فيها ملامح الشخص أو الخامات الحقيقية، لأن كل شيء يصير تمثالاً مستديراً",
+      "طلب واجهة أمامية مستوية أو رسوم متجهية مسطّحة أو بلاستيك لامع أو ألوان حلوى مشبعة"
+    ]
+  }
+}
